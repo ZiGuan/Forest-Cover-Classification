@@ -2,8 +2,8 @@
 
 ### The objectives of this project is built a deep learning model to predict the forest cover type from different cartographic variables.
 
-1. Forest Cover Types: ['Spruce/Fir', 'Lodgepole Pine','Ponderosa Pine', 'Cottonwood/Willow','Aspen', 'Douglas-fir', 'Krummholz']
-2. Dataset ('cover_data.csv') that contains 581012 observations. Each observation has 55 columns (54 features and the last one being the class).
+* Forest Cover Types: ['Spruce/Fir', 'Lodgepole Pine','Ponderosa Pine', 'Cottonwood/Willow','Aspen', 'Douglas-fir', 'Krummholz']
+* Dataset ('cover_data.csv') that contains 581012 observations. Each observation has 55 columns (54 features and the last one being the class).
 
 `Model Test Accuracy: 91.5432 %` </br>
 `Model Test Loss: 0.2159` </br>
