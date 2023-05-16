@@ -5,8 +5,8 @@
 1. Forest Cover Types: ['Spruce/Fir', 'Lodgepole Pine','Ponderosa Pine', 'Cottonwood/Willow','Aspen', 'Douglas-fir', 'Krummholz']
 2. Dataset ('cover_data.csv') that contains 581012 observations. Each observation has 55 columns (54 features and the last one being the class).
 
-`Model Test Accuracy:` 91.5432 % </br>
-`Model Test Loss:` 0.2159 </br>
+`Model Test Accuracy: 91.5432 %` </br>
+`Model Test Loss: 0.2159` </br>
 
 Model Accuracy & Model Loss with `sparse_categorical_crossentropy` loss function and `Adam` optimizer:
 ![](/images/model_accuraacy.png)
