@@ -17,7 +17,7 @@ From confusion matrix heatmap, we see that `Lodgepole Pine`, `Cottonwood Willow`
 
 From Classification Report, all value of evaluation metrics become quite high after adding more hidden layers and hyperprameter tuning.
 
-precision    recall  f1-score   support
+precision  |  recall  | f1-score  | support
 ---------------------------------------------------------
 Spruce/Fir  |     0.93  |    0.90    |  0.91    | 42368
    Lodgepole Pine  |     0.92   |   0.94    |  0.93  |   56661
