@@ -17,19 +17,19 @@ From confusion matrix heatmap, we see that `Lodgepole Pine`, `Cottonwood Willow`
 
 From Classification Report, all value of evaluation metrics become quite high after adding more hidden layers and hyperprameter tuning.
 
-precision  |  recall  | f1-score  | support
+| precision  |  recall  | f1-score  | support |
 ---------------------------------------------------------
-Spruce/Fir  |     0.93  |    0.90    |  0.91    | 42368
-   Lodgepole Pine  |     0.92   |   0.94    |  0.93  |   56661
-   Ponderosa Pine  |     0.89   |   0.92    |  0.91  |    7151
-Cottonwood/Willow   |    0.85   |   0.77    |  0.81  |     549
-            Aspen    |   0.88   |   0.66    |  0.75  |    1899
-      Douglas-fir    |  0.85    |   0.80    |  0.82  |    3473
-        Krummholz    |   0.91   |   0.95    |  0.93  |    4102
+| Spruce/Fir  |     0.93  |    0.90    |  0.91    | 42368 |
+|   Lodgepole Pine  |     0.92   |   0.94    |  0.93  |   56661 |
+|   Ponderosa Pine  |     0.89   |   0.92    |  0.91  |    7151  |
+| Cottonwood/Willow   |    0.85   |   0.77    |  0.81  |     549  |
+|           Aspen    |   0.88   |   0.66    |  0.75  |    1899   |
+|      Douglas-fir    |  0.85    |   0.80    |  0.82  |    3473   |
+|        Krummholz    |   0.91   |   0.95    |  0.93  |    4102   |
 
-         accuracy    |          |           |  0.92   | 116203
-        macro avg    |   0.89   |   0.85    |  0.87   | 116203
-     weighted avg    |   0.92   |   0.92    |  0.91   | 116203
+ |        accuracy    |          |           |  0.92   | 116203  |
+ |       macro avg    |   0.89   |   0.85    |  0.87   | 116203  |
+ |  weighted avg    |   0.92   |   0.92    |  0.91   | 116203  |
 
 ### Future Improvement
 * Check the proportion of observations for each cover-type. Imbalances in the dataset will affect classification.
