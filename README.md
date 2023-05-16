@@ -8,11 +8,11 @@
 `Model Test Accuracy: 91.5432 %` </br>
 `Model Test Loss: 0.2159` </br>
 
-Model Accuracy & Model Loss with `sparse_categorical_crossentropy` loss function and `Adam` optimizer:
-![](/images/model_accuraacy.png)
+Model Accuracy & Model Loss with `sparse_categorical_crossentropy` loss function and `Adam` optimizer: </br>
+![](/images/model_accuracy.png) </br>
 ![](/images/model_loss.png)
 
-From confusion matrix heatmap, we see that `Lodgepole Pine`, `Cottonwood Willow`, `Aspen`, and `Douglas-Fir suffer` from a high percentage of mis-classifications. To investigate the possible causes, one can explore the following:
+From confusion matrix heatmap, we see that `Lodgepole Pine`, `Cottonwood Willow`, `Aspen`, and `Douglas-Fir suffer` from a high percentage of mis-classifications. To investigate the possible causes, one can explore the following: </br>
 ![](/images/cf.png)
 
 ### Future Improvement
